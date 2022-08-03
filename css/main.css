@@ -1287,6 +1287,11 @@ body {
   font-size: 11.5px;
   line-height: 1.16;
 }
+@media screen and (min-width: 1200px) {
+  .checkbox-text {
+    font-size: 11.5px;
+  }
+}
 
 .doc {
   color: var(--accent-color);
