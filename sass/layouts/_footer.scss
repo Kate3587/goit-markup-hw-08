@@ -1,0 +1,145 @@
+.footer {
+    background-color: var(--secondary-bg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+.footer__container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+
+    @include desktop {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: left;
+       
+
+    }
+}
+
+.footer__reaction{
+    display: block;
+    width: 100%;
+}
+
+
+.footer__logo {
+    color: var(--primary-white-color);
+    display: inline-block;
+    margin-bottom: 20px;
+
+    font-size: 24px;
+    line-height: 1.16;
+    text-align: center;
+
+    @include desktop {
+        font-size: 26px;
+            line-height: 1.19;
+    
+        }
+
+}
+
+.contacts {
+    cursor: none;
+    font-style: normal;
+}
+
+.contacts__item {
+    gap: 9px;
+     
+}
+
+
+
+.contacts__map {
+    color: var(--primary-white-color);
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover,
+        &:focus {
+            color: var(--accent-color);
+        }
+}
+
+.contacts__link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        &:hover,
+        &:focus {
+        color: var(--accent-color);
+    }
+}
+
+
+
+.footer__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+    margin-bottom: 20px;
+}
+
+
+
+.social__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social__icon--light {
+    fill: var(--primary-white-color);
+}
+
+.footer__wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        
+    }
+
+    @include desktop {
+       gap: 70px;
+    
+    }
+   
+}
+
+.footer__reaction{
+
+    @include desktop {
+        margin-left: 33px;
+    
+        }
+
+}
+

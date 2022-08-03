@@ -1,0 +1,56 @@
+.direction {
+    padding-top: 0;
+   
+    @media screen and (max-width: 1199px) {
+            display: none;
+        }
+}
+
+.direction__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.direction__item {
+    margin-right: 30px;
+        &:last-child {
+        margin-right: 0;
+        }
+}
+
+
+
+.direction__card {
+    position: relative;
+}
+
+.card__img,
+.people__foto {
+    display: block;
+}
+
+.card__label {
+    width: 370px;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+
+
+    padding: 27px 0px;
+
+    text-align: center;
+
+    background: rgba(47, 48, 58, 0.8);
+}
+
+.card__title {
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
