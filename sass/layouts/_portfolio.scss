@@ -10,7 +10,7 @@
 }
 
 .projects-item {
-    max-width: 370px;
+    width: 100%;
     border: 1px solid #EEEEEE;
     transition-property: box-shadow;
     transition-duration: 250ms;
@@ -55,6 +55,7 @@
 }
 
 .projects-card-description {
+
     text-decoration: none;
     padding: 20px 24px 20px 24px;
 }
@@ -68,4 +69,5 @@
 
 .projects-img {
     display: block;
+    width: 100%;
 }

@@ -6,6 +6,20 @@
         }
 }
 
+.direction__title{
+    color: var(--title-text-color);
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    text-align: center;
+    
+    @include desktop{
+        margin-bottom: 50px;
+        font-size: 36px;
+    }
+}
+
 .direction__list {
     display: flex;
     flex-wrap: wrap;

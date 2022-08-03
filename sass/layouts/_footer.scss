@@ -50,16 +50,15 @@
     font-style: normal;
 }
 
-.contacts__item {
-    gap: 9px;
-     
-}
 
 
 
 .contacts__map {
+
+
     color: var(--primary-white-color);
     text-decoration: none;
+
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -68,6 +67,15 @@
             color: var(--accent-color);
         }
 }
+.contacts__item{
+
+        margin-bottom: 8px;
+        
+    @include desktop {
+        margin-bottom: 9px;
+    }
+}
+
 
 .contacts__link {
     text-decoration: none;

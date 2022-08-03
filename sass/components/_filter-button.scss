@@ -2,7 +2,7 @@
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     gap: 8px;
 
     @include tablet {
@@ -11,7 +11,7 @@
         margin-bottom: 30px;
     }
 
-    @include tablet {
+    @include desktop {
         margin-bottom: 50px;
     }
 
